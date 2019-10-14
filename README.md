@@ -165,7 +165,7 @@ notes:
 * Removing Temp folder is not possible, **rd** will just wipe subfolders
 * taskkill /f /im iexplore.exe is optional, most likey will cause *Your last browsing session closed unexpectetly* error - Restore session or press x to avoid restoring session.
 * cleaning Temp is limited if any user apps are running
-*if exist line is optional, used for if else statements
+* if exist line is optional, used for if else statements
 
 Open appsensevirtual without checking/unchecking 
 View Hidden Items, **stop ivanti to be able to delete all subfolders**
