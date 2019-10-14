@@ -186,3 +186,5 @@ wipe_ivanti_appsensevirtual_prv_test.bat
 del /f /s /q "C:\appsensevirtual\"
 rd /s /q "C:\appsensevirtual\")
 ```
+
+not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
