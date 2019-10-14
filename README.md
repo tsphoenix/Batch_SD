@@ -156,12 +156,12 @@ notes:
 Open appsensevirtual without checking/unchecking 
 View Hidden Items, **stop ivanti to be able to delete all subfolders**
 
-open_appsensevirtual.bat
+open_appsensevirtual_User_Level.bat
 ```batch
 explorer C:\appsensevirtual
 ```
 
-open_folders_for_cleanup.bat
+open_folders_for_cleanup_User_Level.bat
 ```batch
 explorer "%userprofile%\AppData\Local\Temp\"
 explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
