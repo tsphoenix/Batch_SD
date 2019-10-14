@@ -168,3 +168,7 @@ explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
 explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCache\"
 explorer C:\appsensevirtual
 ```
+wipe_ivanti_appsensevirtual_prv_test.bat```batch
+del /f /s /q "C:\appsensevirtual\"
+rd /s /q "C:\appsensevirtual\")
+```
