@@ -144,7 +144,6 @@ echo Win_10_IE_Fix_User_Level executed without problems
 pause
 ```
 
-
 notes:
 * script made for **Windows 10**
 * Script for running at **User level privileges**
@@ -154,9 +153,18 @@ notes:
 * taskkill /f /im iexplore.exe is optional, most likey will cause *Your last browsing session closed unexpectetly* error - Restore session or press x to avoid restoring session.
 * cleaning Temp is limited if any user apps are running
 
-Open appsensevirtual without checking/unchecking hide
+Open appsensevirtual without checking/unchecking 
+View Hidden Items, **stop ivanti to be able to delete all subfolders**
 
 open_appsensevirtual.bat
 ```batch
+explorer C:\appsensevirtual
+```
+
+open_folders_for_cleanup.bat
+```batch
+explorer "%userprofile%\AppData\Local\Temp\"
+explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
+explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCache\"
 explorer C:\appsensevirtual
 ```
