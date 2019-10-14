@@ -155,6 +155,7 @@ notes:
 * cleaning Temp is limited if any user apps are running
 
 Open appsensevirtual without checking/unchecking hide
+
 open_appsensevirtual.bat
 ```batch
 explorer C:\appsensevirtual
