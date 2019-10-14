@@ -27,6 +27,10 @@ User profiles cleanup:
 sysdm.cpl
 System Properties > Advanced Tab > User Profiles Settings...
 
+Stop Ivanti
+Wipe
+C:\appsensevirtual\
+
 **Commands, parameters and paths are case insensitive, for the consistency and unix style I used lower case.**
 
 ##Resources Used:
@@ -111,8 +115,7 @@ Browser Batch cookies, cache and history cleaners:
 
 https://catonmat.net/clear-privacy-ie-firefox-opera-chrome-safari
 
-Win_10_IE_Fix_User_Level
-
+Win_10_IE_Fix_User_Level.bat
 ```batch
 @echo off
 title Win_10_IE_Fix_User_Level
@@ -141,6 +144,7 @@ echo Win_10_IE_Fix_User_Level executed without problems
 pause
 ```
 
+
 notes:
 * script made for **Windows 10**
 * Script for running at **User level privileges**
@@ -149,3 +153,9 @@ notes:
 * Removing Temp folder is not possible, **rd** will just wipe subfolders
 * taskkill /f /im iexplore.exe is optional, most likey will cause *Your last browsing session closed unexpectetly* error - Restore session or press x to avoid restoring session.
 * cleaning Temp is limited if any user apps are running
+
+Open appsensevirtual without checking/unchecking hide
+open_appsensevirtual.bat
+```batch
+explorer C:\appsensevirtual
+```
