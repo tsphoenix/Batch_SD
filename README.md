@@ -9,27 +9,39 @@ taskkill /f /im iexplore.exe
 **Windows 10** default **environment variables** used:
 
 %userprofile%
+
 %temp% ==  %tmp%
+
 %systemdrive% == C:\
 
 Cleaning IE cookies
+
 Win > Run > shell:cookies
+
 %userprofile%\AppData\Local\Microsoft\Windows\INetCookies
 
 Cleaning IE Cache
+
 inetcpl.cpl
+
 control /name Microsoft.InternetOptions
+
 Internet Options > General Tab > Settings > View files
+
 %userprofile%\AppData\Local\Microsoft\Windows\INetCache
 
 **To be scripted:**
 
 User profiles cleanup:
+
 sysdm.cpl
+
 System Properties > Advanced Tab > User Profiles Settings...
 
 Stop Ivanti
+
 Wipe
+
 C:\appsensevirtual\
 
 **Commands, parameters and paths are case insensitive, for the consistency and unix style I used lower case.**
