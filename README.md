@@ -10,6 +10,7 @@ taskkill /f /im iexplore.exe
 
 %userprofile%
 %temp% ==  %tmp%
+%systemdrive% == C:\
 
 Cleaning IE cookies
 Win > Run > shell:cookies
