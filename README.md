@@ -196,6 +196,7 @@ notes:
 clean_user_TEMP_tested.bat
 ```batch
 @echo off
+title clean_user_TEMP_tested ts
 del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
 rd /s /q "%userprofile%\AppData\Local\Temp\"
 cls
