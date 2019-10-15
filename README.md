@@ -192,3 +192,16 @@ rd /s /q "C:\appsensevirtual\")
 ```
 notes:
 * not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
+
+clean_user_TEMP_tested.bat
+```batch
+@echo off
+del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
+rd /s /q "%userprofile%\AppData\Local\Temp\"
+cls
+echo.
+echo TEMP cleaned
+echo.
+echo Cleaned current users TEMP files
+pause
+```
