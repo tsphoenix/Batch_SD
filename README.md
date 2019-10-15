@@ -167,15 +167,16 @@ notes:
 * cleaning Temp is limited if any user apps are running
 * if exist line is optional, used for if else statements
 
-Open appsensevirtual without checking/unchecking 
-View Hidden Items, **stop ivanti to be able to delete all subfolders**
+
 
 open_appsensevirtual_User_Level.bat
 ```batch
 explorer C:\appsensevirtual
 ```
-
-open_folders_for_cleanup_User_Level.bat
+notes:
+* Open appsensevirtual without checking/unchecking 
+View Hidden Items, **stop ivanti to be able to delete all subfolders**
+* open_folders_for_cleanup_User_Level.bat
 ```batch
 explorer "%userprofile%\AppData\Local\Temp\"
 explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
@@ -187,5 +188,5 @@ wipe_ivanti_appsensevirtual_prv_test.bat
 del /f /s /q "C:\appsensevirtual\"
 rd /s /q "C:\appsensevirtual\")
 ```
-
-not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
+notes:
+* not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
