@@ -171,7 +171,9 @@ notes:
 
 open_appsensevirtual_User_Level.bat
 ```batch
-explorer C:\appsensevirtual
+explorer C:\appsensevirtual\
+# or something like
+# explorer %systemdrive%\appsensevirtual\
 ```
 
 notes:
