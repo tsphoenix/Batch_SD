@@ -1,3 +1,13 @@
+**Documentation:**
+
+https://guides.github.com/features/mastering-markdown/
+
+https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables
+
+https://ss64.com/vb
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands
+
 
 # Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
 
@@ -48,9 +58,6 @@ C:\appsensevirtual\
 
 ## Resources Used:
 
-**Markdown .md**
-
-https://guides.github.com/features/mastering-markdown/
 
 **Commands:**
 
@@ -111,6 +118,7 @@ https://community.spiceworks.com/scripts/show/782-user-cleanup
 https://community.spiceworks.com/scripts/show/1187-quick-cleanup-script-all-user-profiles
 
 **Batch UAC - Admin**
+
 https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
 
 https://sites.google.com/site/eneerge/scripts/batchgotadmin
@@ -182,7 +190,7 @@ explorer C:\appsensevirtual\
 ```
 
 notes:
-* Open appsensevirtual without checking/unchecking 
+* Open appsensevirtual without checking/unchecking
 View Hidden Items, **stop ivanti to be able to delete all subfolders**
 
 open_folders_for_cleanup_User_Level.bat
