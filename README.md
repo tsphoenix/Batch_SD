@@ -203,6 +203,7 @@ pause
 ```
 notes:
 * not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
+* not sure if C:\appsensevirtual\ will be automaticaly recreated by ivanti services
 
 clean_user_TEMP_tested.bat
 ```batch
