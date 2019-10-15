@@ -1,5 +1,5 @@
 
-#Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
+# Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
 
 **WIP**
 
@@ -46,7 +46,7 @@ C:\appsensevirtual\
 
 **Commands, parameters and paths are case insensitive, for the consistency and unix style I used lower case.**
 
-##Resources Used:
+## Resources Used:
 
 **Markdown .md**
 
