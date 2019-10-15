@@ -189,8 +189,17 @@ explorer C:\appsensevirtual
 ```
 wipe_ivanti_appsensevirtual_prv_test.bat
 ```batch
+@echo off
+title wipe_ivanti_appsensevirtual_prv_test
+
 del /f /s /q "C:\appsensevirtual\"
 rd /s /q "C:\appsensevirtual\"
+
+cls
+echo.
+echo C:\appsensevirtual\ cleared
+echo.
+pause
 ```
 notes:
 * not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
