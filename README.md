@@ -156,7 +156,7 @@ rd /s /q "%userprofile%\AppData\Local\Microsoft\Windows\INetCache\")
 
 cls
 echo.
-echo TEMP cleaned, INetCookies cleaned, echo INetCache cleaned
+echo TEMP cleaned, INetCookies cleaned, INetCache cleaned
 echo.
 echo Win_10_IE_Fix_User_Level executed without problems
 pause
