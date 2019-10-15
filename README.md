@@ -110,6 +110,11 @@ https://community.spiceworks.com/scripts/show/782-user-cleanup
 
 https://community.spiceworks.com/scripts/show/1187-quick-cleanup-script-all-user-profiles
 
+**Batch UAC - Admin**
+https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
+
+https://sites.google.com/site/eneerge/scripts/batchgotadmin
+
 **Existing .vbs profile cleaners:**
 
 https://ss64.com/vb/syntax-profile.html
