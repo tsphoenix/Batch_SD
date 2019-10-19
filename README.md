@@ -12,7 +12,7 @@ https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environ
 
 https://ss64.com/vb
 
-# Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
+# Cleaning User profile and scripting tedious tasks
 
 **WIP**
 
