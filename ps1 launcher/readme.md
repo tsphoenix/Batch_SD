@@ -12,6 +12,7 @@ https://social.technet.microsoft.com/Forums/ie/en-US/e20ddf85-26ba-45a7-a987-89d
 
 https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrator
 
+
 ps1 -> bat
 
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
@@ -23,3 +24,7 @@ https://social.technet.microsoft.com/Forums/windows/en-US/0b664894-b740-4529-ac7
 https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/
 
 https://superuser.com/questions/1098072/run-ps1-with-admin-privileges-and-unrestricted-policies-from-a-batch-file
+
+https://stackoverflow.com/questions/21641100/from-powershell-how-do-you-launch-an-executable-in-administrator-mode-under-a-d
+
+https://stackoverflow.com/questions/30523948/switch-parameters-and-powershell-exe-file-parameter
