@@ -17,3 +17,5 @@ ps1 -> bat
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
 
 https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script
+
+https://social.technet.microsoft.com/Forums/windows/en-US/0b664894-b740-4529-ac7f-e8d4f511f2d7/how-to-runas-powershell-script?forum=winserverDS
