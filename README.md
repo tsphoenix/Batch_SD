@@ -65,9 +65,10 @@ Win_10_IE_Fix_User_Level.bat
 @echo off
 title Win_10_IE_Fix_User_Level
 
-echo Win_10_IE_Fix_User_Level v1 by ts
+echo Win_10_IE_Fix_User_Level
 
 taskkill /im iexplore.exe
+taskkill /im /f iexplore.exe
 
 if exist "%userprofile%\AppData\Local\Temp\" (
 del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
@@ -140,7 +141,7 @@ notes:
 clean_user_TEMP_tested.bat
 ```batch
 @echo off
-title clean_user_TEMP_tested ts
+title clean_user_TEMP_tested
 del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
 rd /s /q "%userprofile%\AppData\Local\Temp\"
 cls
