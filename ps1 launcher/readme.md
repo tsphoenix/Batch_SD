@@ -8,6 +8,10 @@ https://gist.github.com/BenMcLean/7d593af547cd168fe02a266d317d4005
 
 https://superuser.com/questions/1050193/executing-a-powershell-script-through-batch-file
 
+https://social.technet.microsoft.com/Forums/ie/en-US/e20ddf85-26ba-45a7-a987-89de076eda23/solved-run-program-as-different-user-through-batch-file?forum=ITCG
+
+https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrator
+
 ps1 -> bat
 
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
