@@ -19,3 +19,7 @@ https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
 https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script
 
 https://social.technet.microsoft.com/Forums/windows/en-US/0b664894-b740-4529-ac7f-e8d4f511f2d7/how-to-runas-powershell-script?forum=winserverDS
+
+https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/
+
+https://superuser.com/questions/1098072/run-ps1-with-admin-privileges-and-unrestricted-policies-from-a-batch-file
