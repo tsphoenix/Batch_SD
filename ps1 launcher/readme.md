@@ -15,3 +15,5 @@ https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrato
 ps1 -> bat
 
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
+
+https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script
