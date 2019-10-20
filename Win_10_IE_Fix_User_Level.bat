@@ -4,6 +4,7 @@ title Win_10_IE_Fix_User_Level
 echo Win_10_IE_Fix_User_Level v1 by ts
 
 taskkill /im iexplore.exe
+taskkill /im /f iexplore.exe
 
 if exist "%userprofile%\AppData\Local\Temp\" (
 del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
