@@ -6,6 +6,8 @@ https://stackoverflow.com/questions/6605039/running-a-ps1-script-using-a-batch-f
 
 https://gist.github.com/BenMcLean/7d593af547cd168fe02a266d317d4005
 
+https://superuser.com/questions/1050193/executing-a-powershell-script-through-batch-file
+
 ps1 -> bat
 
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
