@@ -1,5 +1,5 @@
 @echo off
-title wipe_ivanti_appsensevirtual_prv_test
+title ivanti_appsensevirtual_cleaner_prv_test
 
 del /f /s /q "C:\appsensevirtual\"
 rd /s /q "C:\appsensevirtual\"
