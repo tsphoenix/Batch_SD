@@ -1,5 +1,5 @@
 @echo off
-title clean_user_TEMP
+title user_TEMP_cleaner
 del /f /s /q "%userprofile%\AppData\Local\Temp\*.*"
 rd /s /q "%userprofile%\AppData\Local\Temp\"
 cls
