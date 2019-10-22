@@ -40,9 +40,9 @@ notes:
 Win_10_IE_Fix_User_Level.bat
 ```batch
 @echo off
-title Win_10_IE_Fix_User_Level
+title Win_10_IE_Cleanup_User_Level
 
-echo Win_10_IE_Fix_User_Level v1 @tsphoenix
+echo Win_10_IE_Cleanup_User_Level v1 @tsphoenix
 
 taskkill /im iexplore.exe
 taskkill /im /f iexplore.exe
