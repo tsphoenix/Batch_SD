@@ -16,9 +16,6 @@ https://ss64.com/vb
 
 **WIP**
 
-Closing IE iexplore.exe
-taskkill /f /im iexplore.exe
-
 **Windows 10** default **environment variables** used:
 
 %userprofile%
@@ -26,22 +23,6 @@ taskkill /f /im iexplore.exe
 %temp% ==  %tmp%
 
 %systemdrive% == C:\
-
-Cleaning IE cookies
-
-Win > Run > shell:cookies
-
-%userprofile%\AppData\Local\Microsoft\Windows\INetCookies
-
-Cleaning IE Cache
-
-inetcpl.cpl
-
-control /name Microsoft.InternetOptions
-
-Internet Options > General Tab > Settings > View files
-
-%userprofile%\AppData\Local\Microsoft\Windows\INetCache
 
 **To be scripted:**
 
