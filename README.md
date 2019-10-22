@@ -34,7 +34,7 @@ System Properties > Advanced Tab > User Profiles Settings...
 
 **Commands, parameters and paths are case insensitive, for the consistency and unix style I used lower case.**
 
-open_appsensevirtual_User_Level.bat
+open_ivanti_appsensevirtual_folder.bat
 ```batch
 explorer C:\appsensevirtual\
 # or something like
@@ -43,7 +43,7 @@ explorer C:\appsensevirtual\
 
 notes:
 * Open appsensevirtual without checking/unchecking
-View Hidden Items, **stop ivanti to be able to delete all subfolders**
+View Hidden Items, **stop ivanti services to be able to delete all subfolders**
 
 open_folders_for_cleanup_User_Level.bat
 ```batch
@@ -52,10 +52,10 @@ explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
 explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCache\"
 explorer C:\appsensevirtual
 ```
-wipe_ivanti_appsensevirtual_prv_test.bat
+ivanti_appsensevirtual_cleaner_prv_test.bat
 ```batch
 @echo off
-title wipe_ivanti_appsensevirtual_prv_test
+title ivanti_appsensevirtual_cleaner_prv_test
 
 del /f /s /q "C:\appsensevirtual\"
 rd /s /q "C:\appsensevirtual\"
@@ -67,8 +67,9 @@ echo.
 pause
 ```
 notes:
-* not sure if it will delete appsensevirtual folder with prv or just it's content, tbt
+* not sure if it will delete appsensevirtual folder with prv or just it's content, to be tested
 * not sure if C:\appsensevirtual\ will be automaticaly recreated by ivanti services
+* stop ivanti services to be able to delete all subfolders
 
 clean_user_TEMP_tested.bat
 ```batch
@@ -83,9 +84,9 @@ echo.
 echo Cleaned current users TEMP files
 pause
 ```
-credentialsManagerCleaner.bat
+credentials_manager_cleaner_test.bat
 ```batch
-For /F "tokens=1,2 delims= " %%G in ('cmdkey /list ^| findstr Target') do  cmdkey /delete %%H
+For /F "tokens=1,2 delims= " %G in ('cmdkey /list ^| findstr Target') do  cmdkey /delete %H
 ```
 ## Resources Used:
 
