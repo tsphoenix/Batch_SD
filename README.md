@@ -40,7 +40,6 @@ explorer C:\appsensevirtual\
 # or something like
 # explorer %systemdrive%\appsensevirtual\
 ```
-
 notes:
 * Open appsensevirtual without checking/unchecking
 View Hidden Items, **stop ivanti services to be able to delete all subfolders**
@@ -52,25 +51,6 @@ explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCookies\"
 explorer "%userprofile%\AppData\Local\Microsoft\Windows\INetCache\"
 explorer C:\appsensevirtual
 ```
-ivanti_appsensevirtual_cleaner_prv_test.bat
-```batch
-@echo off
-title ivanti_appsensevirtual_cleaner_prv_test
-
-del /f /s /q "C:\appsensevirtual\"
-rd /s /q "C:\appsensevirtual\"
-
-cls
-echo.
-echo C:\appsensevirtual\ cleared
-echo.
-pause
-```
-notes:
-* not sure if it will delete appsensevirtual folder with prv or just it's content, to be tested
-* not sure if C:\appsensevirtual\ will be automaticaly recreated by ivanti services
-* stop ivanti services to be able to delete all subfolders
-
 clean_user_TEMP_tested.bat
 ```batch
 @echo off
