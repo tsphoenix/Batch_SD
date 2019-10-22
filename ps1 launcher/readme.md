@@ -1,4 +1,4 @@
-resources:
+Resources:
 
 https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
 
@@ -13,8 +13,7 @@ https://social.technet.microsoft.com/Forums/ie/en-US/e20ddf85-26ba-45a7-a987-89d
 https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrator
 
 
-ps1 -> bat
-
+Powershell code in Batch
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
 
 https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script
