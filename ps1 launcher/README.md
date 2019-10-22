@@ -14,6 +14,7 @@ https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrato
 
 
 Powershell code in Batch
+
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
 
 https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script
