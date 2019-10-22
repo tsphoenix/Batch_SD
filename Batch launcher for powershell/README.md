@@ -28,3 +28,32 @@ https://superuser.com/questions/1098072/run-ps1-with-admin-privileges-and-unrest
 https://stackoverflow.com/questions/21641100/from-powershell-how-do-you-launch-an-executable-in-administrator-mode-under-a-d
 
 https://stackoverflow.com/questions/30523948/switch-parameters-and-powershell-exe-file-parameter
+
+launcher snippets:
+
+```batch
+#
+@ECHO OFF
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+PAUSE
+#
+fixed
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Unrestricted','-File %~dpn0.ps1' -Verb RunAs"
+
+
+
+PowerShell.exe -Command "& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+
+launcher snippets:
+#
+```
+```powershell
+PowerShell.exe -Command "& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+#
+start powershell -credential ""
+#
+Start-Process powershell.exe -Credential $Credential -Verb RunAs -ArgumentList ("-file $args")
+#
+Start-Process powershell.exe -credential $cred -verb runas
+#
+```
