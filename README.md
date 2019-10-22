@@ -151,12 +151,3 @@ https://raw.githubusercontent.com/MoscaDotTo/Winapp2/master/Winapp2.ini
 Browser Batch cookies, cache and history cleaners:
 
 https://catonmat.net/clear-privacy-ie-firefox-opera-chrome-safari
-
-credentialsManagerCleaner:
-
-https://support.microsoft.com/en-us/help/4026814/windows-accessing-credential-manager
-
-https://blogs.technet.microsoft.com/rmilne/2019/01/11/script-to-clear-credman/
-
-https://gallery.technet.microsoft.com/scriptcenter/Accessing-Windows-7210ae91
-
