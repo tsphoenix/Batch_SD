@@ -13,7 +13,7 @@ https://social.technet.microsoft.com/Forums/ie/en-US/e20ddf85-26ba-45a7-a987-89d
 https://stackoverflow.com/questions/14639743/batch-script-to-run-as-administrator
 
 
-Powershell code in Batch
+Powershell code in Batch:
 
 https://gerrywilliams.net/2017/12/ps-create-batch-launcher-files/
 
