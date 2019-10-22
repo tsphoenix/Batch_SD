@@ -1,4 +1,4 @@
-**WIP**
+**FINISHED**
 
 removes credentials, makes no backup copy
 
