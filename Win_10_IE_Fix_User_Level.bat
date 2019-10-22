@@ -1,7 +1,7 @@
 @echo off
 title Win_10_IE_Fix_User_Level
 
-echo Win_10_IE_Fix_User_Level v1 by ts
+echo Win_10_IE_Fix_User_Level v1 @tsphoenix
 
 taskkill /im iexplore.exe
 taskkill /im /f iexplore.exe
