@@ -10,7 +10,7 @@ https://blogs.technet.microsoft.com/rmilne/2019/01/11/script-to-clear-credman/
 
 https://gallery.technet.microsoft.com/scriptcenter/Accessing-Windows-7210ae91
 
-credentials_manager_cleaner_test snippets:
+credentials_manager_cleaner snippets:
 
 ```batch
 #for cmd
