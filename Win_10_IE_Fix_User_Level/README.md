@@ -1,4 +1,6 @@
-**Finished, Tested** Closing IE iexplore.exe taskkill /f /im iexplore.exe
+**Finished, Tested** 
+
+Closing IE iexplore.exe taskkill /f /im iexplore.exe
 
 Windows 10 default environment variables used:
 
