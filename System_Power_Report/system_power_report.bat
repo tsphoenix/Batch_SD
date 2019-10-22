@@ -1,5 +1,5 @@
 @echo off
-title System Power Report
+title System_Power_Report
 
 powercfg /sleepstudy /output "%UserProfile%\Desktop\sleepstudy_report.html"
 
