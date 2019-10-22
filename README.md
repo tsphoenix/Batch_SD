@@ -64,10 +64,7 @@ echo.
 echo Cleaned current users TEMP files
 pause
 ```
-credentials_manager_cleaner_test.bat
-```batch
-For /F "tokens=1,2 delims= " %G in ('cmdkey /list ^| findstr Target') do  cmdkey /delete %H
-```
+
 ## Resources Used:
 
 **Commands:**
