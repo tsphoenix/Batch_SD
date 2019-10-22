@@ -63,7 +63,7 @@ cls
 echo.
 echo Closed IE, INetCookies cleaned, echo INetCache cleaned, TEMP cleaned
 echo.
-echo Win_10_IE_Fix_User_Level executed without problems
+echo Win_10_IE_Cleanup_User_Level executed without problems
 pause
 ```
 
