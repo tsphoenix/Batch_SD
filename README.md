@@ -33,7 +33,8 @@ sysdm.cpl
 System Properties > Advanced Tab > User Profiles Settings...
 
 **Commands, parameters and paths are case insensitive.**
-**Scripts requirig elevated privileges have_prv suffix.**
+
+**Scripts requirig elevated privileges have _prv suffix.**
 
 open_ivanti_appsensevirtual_folder.bat
 ```batch
