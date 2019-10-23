@@ -8,6 +8,8 @@ https://support.microsoft.com/en-us/help/4026814/windows-accessing-credential-ma
 
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cmdkey
 
+https://ss64.com/nt/for_f.html
+
 https://blogs.technet.microsoft.com/rmilne/2019/01/11/script-to-clear-credman/
 
 https://gallery.technet.microsoft.com/scriptcenter/Accessing-Windows-7210ae91
