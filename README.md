@@ -18,7 +18,7 @@ https://ss64.com/vb
 
 **Scripts requirig elevated privileges have _prv suffix.**
 
-**Principle of least privilege (POLP)**
+**Principle of Least Privilege (POLP)**
 
 **WIP**
 
