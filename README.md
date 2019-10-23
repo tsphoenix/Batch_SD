@@ -21,9 +21,6 @@ https://ss64.com/vb
 
 **Scripts requiring elevated privileges have _prv suffix.**
 
-
-**WIP**
-
 **Windows 10** default **environment variables** used:
 
 %userprofile%
