@@ -29,7 +29,7 @@ https://stackoverflow.com/questions/21641100/from-powershell-how-do-you-launch-a
 
 https://stackoverflow.com/questions/30523948/switch-parameters-and-powershell-exe-file-parameter
 
-launcher snippets:
+old launcher snippets:
 
 ```batch
 #
@@ -39,14 +39,11 @@ PAUSE
 #
 fixed
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Unrestricted','-File %~dpn0.ps1' -Verb RunAs"
-
-
-
+#
 PowerShell.exe -Command "& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
-
-launcher snippets:
 #
 ```
+old launcher snippets:
 ```powershell
 PowerShell.exe -Command "& {Start-Process PowerShell.exe -ArgumentList '-ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
 #
