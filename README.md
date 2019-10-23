@@ -14,7 +14,7 @@ https://ss64.com/vb
 
 # Cleaning User profile and scripting tedious tasks
 
-**Commands, parameters and paths are case insensitive.**
+**Commands, parameters and paths are case insensitive. Generally used unix lower case style.**
 
 **Scripts requirig elevated privileges have _prv suffix.**
 
