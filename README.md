@@ -14,6 +14,12 @@ https://ss64.com/vb
 
 # Cleaning User profile and scripting tedious tasks
 
+**Commands, parameters and paths are case insensitive.**
+
+**Scripts requirig elevated privileges have _prv suffix.**
+
+**Principle of least privilege (POLP)**
+
 **WIP**
 
 **Windows 10** default **environment variables** used:
@@ -24,17 +30,7 @@ https://ss64.com/vb
 
 %systemdrive% == C:\
 
-**To be scripted:**
 
-User profiles cleanup:
-
-sysdm.cpl
-
-System Properties > Advanced Tab > User Profiles Settings...
-
-**Commands, parameters and paths are case insensitive.**
-
-**Scripts requirig elevated privileges have _prv suffix.**
 
 open_ivanti_appsensevirtual_folder.bat
 ```batch
@@ -66,6 +62,13 @@ echo.
 echo Cleaned current users TEMP files
 pause
 ```
+**To be scripted:**
+
+User profiles cleanup:
+
+sysdm.cpl
+
+System Properties > Advanced Tab > User Profiles Settings...
 
 ## Resources Used:
 
