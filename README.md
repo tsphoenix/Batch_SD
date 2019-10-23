@@ -16,9 +16,11 @@ https://ss64.com/vb
 
 **Commands, parameters and paths are case insensitive. In general used unix lower case style.**
 
-**Scripts requirig elevated privileges have _prv suffix.**
 
 **Principle of Least Privilege (POLP)**
+
+**Scripts requiring elevated privileges have _prv suffix.**
+
 
 **WIP**
 
