@@ -1,6 +1,5 @@
 # Batch 
 
-
 # Cleaning User profile and scripting tedious tasks
 
 **Commands, parameters and paths are case insensitive. In general used unix lower case style.**
@@ -86,24 +85,6 @@ https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/
 taskkill
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/taskkill
 
-**Environment Variables:**
-
-Recognized Environment Variables
-
-https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables
-
-User Shell Folders - Profile, Start Menu folder... 
-
-https://ss64.com/nt/syntax-folders.html
-
-https://ss64.com/nt/syntax-variables.html
-
-https://pureinfotech.com/list-environment-variables-windows-10/102/
-
-Complete list of environment variables on Windows 10
-
-https://pureinfotech.com/list-environment-variables-windows-10/
-
 **Existing .bat Profile cleaners:**
 
 **https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_files/delete-some-unnecessary-folders-and-files-by/ae6ecc75-cfbb-4f29-b196-c0de1af256ed?auth=1**
@@ -122,11 +103,6 @@ https://community.spiceworks.com/scripts/show/782-user-cleanup
 
 https://community.spiceworks.com/scripts/show/1187-quick-cleanup-script-all-user-profiles
 
-**Batch UAC - Admin**
-
-https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
-
-https://sites.google.com/site/eneerge/scripts/batchgotadmin
 
 **Existing .vbs profile cleaners:**
 
