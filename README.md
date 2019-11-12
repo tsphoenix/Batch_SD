@@ -1,16 +1,5 @@
 # Batch 
 
-**Documentation:**
-
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands
-
-https://ss64.com/nt/
-
-https://guides.github.com/features/mastering-markdown/
-
-https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables
-
-https://ss64.com/vb
 
 # Cleaning User profile and scripting tedious tasks
 
@@ -106,6 +95,10 @@ https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environ
 User Shell Folders - Profile, Start Menu folder... 
 
 https://ss64.com/nt/syntax-folders.html
+
+https://ss64.com/nt/syntax-variables.html
+
+https://pureinfotech.com/list-environment-variables-windows-10/102/
 
 Complete list of environment variables on Windows 10
 
