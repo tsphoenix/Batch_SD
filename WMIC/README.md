@@ -29,6 +29,8 @@ wmic diskdrive get Description, FirmwareRevision, InterfaceType, MediaType, Mode
 
 https://superuser.com/questions/1241303/how-to-get-cpu-temperature-on-windows-system-using-both-snmp-and-cmd
 
+https://social.technet.microsoft.com/Forums/windowsserver/en-US/91cf5c86-5cd0-4107-a4f8-d8c63da43b96/psexec-vs-wmic-the-script-is-blocked?forum=winservergen
+
 PsExec
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
