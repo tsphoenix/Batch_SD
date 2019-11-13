@@ -30,6 +30,7 @@ wmic diskdrive get Description, FirmwareRevision, InterfaceType, MediaType, Mode
 https://superuser.com/questions/1241303/how-to-get-cpu-temperature-on-windows-system-using-both-snmp-and-cmd
 
 PsExec
+
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 https://www.howtogeek.com/school/sysinternals-pro/
