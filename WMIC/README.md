@@ -11,7 +11,7 @@ http://mnadobnik.pl/2013/03/windows-management-instrumentation-command-line/
 
 Reading S.M.A.R.T. data in windows 10
 
-cmd
+cmd:
 
 wmic diskdrive get status #just "OK", "Bad", "Caution" or "Unknown"
 
@@ -41,14 +41,16 @@ https://help.aternity.com/bundle/console_admin_guide_10x_server_local/page/conso
 
 https://community.spiceworks.com/topic/1997976-how-do-you-remotely-use-command-prompt-on-another-computer
 
+cmd:
+
 PSExec \\$computer cmd /c defrag.exe
 
 PSExec \\$computer cmd /c chkdsk.ex
 
 https://www.winhelponline.com/blog/how-to-run-disk-defragmenter-on-a-remote-computer/
 
-cmd:
 
+cmd:
 PsExec -i -s \\<RemotePC> c:\windows\system32\defrag.exe c: -f
 
 https://gallery.technet.microsoft.com/scriptcenter/Remote-Defragmentation-2146dcc8
