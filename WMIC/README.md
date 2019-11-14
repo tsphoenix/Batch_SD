@@ -6,8 +6,7 @@ https://support.microsoft.com/en-us/help/290216/a-description-of-the-windows-man
 
 https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page
 
-http://mnadobnik.pl/2013/03/windows-management-instrumentation-command-line/
-
+wmic /? ...
 
 Reading S.M.A.R.T. data in windows 10
 
