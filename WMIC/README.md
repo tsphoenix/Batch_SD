@@ -43,10 +43,6 @@ https://www.howtogeek.com/school/sysinternals-pro/lesson8/
 
 https://docs.microsoft.com/en-us/previous-versions/windows/desktop/vdswmi/chkdsk-method-in-class-win32-volume?redirectedfrom=MSDN
 
-https://help.aternity.com/bundle/console_admin_guide_11_server_local/page/console/topics/console_admin_coll_device_health_list.html
-
-https://help.aternity.com/bundle/console_admin_guide_11_0_3_server_local/page/console/topics/console_admin_coll_device_health_list.html
-
 https://community.spiceworks.com/topic/1997976-how-do-you-remotely-use-command-prompt-on-another-computer
 
 cmd:
@@ -70,3 +66,9 @@ for /f %%C in (C:\Temp\computers1.txt) do C:\pstools\psexec \\%%C -u DOMAIN\USER
 openhardwaremonitor cli
 
 https://github.com/openhardwaremonitor/openhardwaremonitor/issues/1079
+
+================================================================
+
+https://help.aternity.com/bundle/console_admin_guide_11_server_local/page/console/topics/console_admin_coll_device_health_list.html
+
+https://help.aternity.com/bundle/console_admin_guide_11_0_3_server_local/page/console/topics/console_admin_coll_device_health_list.html
