@@ -70,5 +70,3 @@ https://github.com/openhardwaremonitor/openhardwaremonitor/issues/1079
 ================================================================
 
 https://help.aternity.com/bundle/console_admin_guide_11_server_local/page/console/topics/console_admin_coll_device_health_list.html
-
-https://help.aternity.com/bundle/console_admin_guide_11_0_3_server_local/page/console/topics/console_admin_coll_device_health_list.html
