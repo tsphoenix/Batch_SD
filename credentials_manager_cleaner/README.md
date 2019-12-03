@@ -24,3 +24,7 @@ For /F "tokens=1,2 delims= " %G in ('cmdkey /list ^| findstr Target') do  cmdkey
 #for batch file
 For /F "tokens=1,2 delims= " %%G in ('cmdkey /list ^| findstr Target') do  cmdkey /delete %%H
 ```
+tokens=1,2,3
+1 Windows Credentials
+2 Certificate-Based Credentials
+3 Generic Credentials
