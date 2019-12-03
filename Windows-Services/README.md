@@ -26,3 +26,7 @@ https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config
 
 https://www.tenforums.com/tutorials/4499-start-stop-disable-services-windows-10-a.html
+
+https://www.thewindowsclub.com/searchindexer-exe-high-cpu-usage
+
+https://www.howtogeek.com/howto/28450/what-is-searchindexer.exe-and-why-is-it-running/
